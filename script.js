@@ -19,7 +19,6 @@ var colors = ["red", "green", "yellow", "cornsilk", "Pink", "white", "lightpink"
 
 colors.forEach(function (color) {
   
-  console.log(color)
 })
 
 
