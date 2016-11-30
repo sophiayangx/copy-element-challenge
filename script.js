@@ -11,5 +11,3 @@ $("#element").click(function(){
   $("#element").clone().appendTo(elementsList);
 });
 
-
-
