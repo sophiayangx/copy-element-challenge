@@ -11,4 +11,6 @@ var elementsList = $("#elements-list")
 
 var color = ["red", "green", "yellow", "cornsilk", "Pink", "white", "lightpink", "pink", "coral"];
 
-console.log(color[0])
+//color[0];
+
+(".element").style.color = "blue"
