@@ -7,10 +7,8 @@
 
 var elementsList = $("#elements-list")
 
-$("#element").click(function(){
-  $("#element").clone().appendTo(elementsList);
-});
+ $(".element").clone().appendTo(elementsList);
 
-var color = ["red", "green", "yellow", "cornsilk"];
+var color = ["red", "green", "yellow", "cornsilk", "Pink", "white", "lightpink", "pink", "coral"];
 
 console.log(color[0])
