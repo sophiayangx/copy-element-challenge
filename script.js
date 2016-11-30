@@ -8,17 +8,10 @@
 var elementsList = $("#elements-list")
 var element = $(".element")
 
-var copy = $(elementsList).append(element.clone())
-$(elementsList).append(element.clone())
-$(elementsList).append(element.clone())
-$(elementsList).append(element.clone())
-$(elementsList).append(element.clone())
-$(elementsList).append(element.clone())
-
 var colors = ["red", "green", "yellow", "cornsilk", "Pink", "white", "lightpink", "pink", "coral"];
 
 colors.forEach(function (color) {
-  
+  $(elementsList).append(element.clone())
 })
 
 
