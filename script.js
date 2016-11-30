@@ -6,11 +6,16 @@
 // 5. how do you repeat this multiple times, for multiple colors??? There is a nice data structure for this kind of thing.
 
 var elementsList = $("#elements-list")
-var element = $(".elements")
+var element = $(".element")
 
 //$(".elements").clone().appendTo(elementsList);
 //$(element).clone().appendTo(elementsList);
 
+$(elementsList).append(element.clone())
+$(elementsList).append(element.clone())
+$(elementsList).append(element.clone())
+$(elementsList).append(element.clone())
+$(elementsList).append(element.clone())
 $(elementsList).append(element.clone())
 $(elementsList).append(element.clone())
 $(elementsList).append(element.clone())
@@ -20,4 +25,6 @@ var color = ["red", "green", "yellow", "cornsilk", "Pink", "white", "lightpink",
 
 //color[0];
 
-(".element").style.color = color[0];
+//("element").style.color = color[0]; 
+
+document.getElementById(".element").style.color = "blue";
