@@ -8,11 +8,10 @@
 var elementsList = $("#elements-list");
 var element = $(".elements");
 
-$(".elements").clone().appendTo(elementsList);
-$(element).clone().appendTo(elementsList);
-$(element).clone().appendTo(elementsList);
+//$(".elements").clone().appendTo(elementsList);
+//$(element).clone().appendTo(elementsList);
 
-elementsList.append(element.clone)
+$(elementsList).append(element.clone())
 
 var color = ["red", "green", "yellow", "cornsilk", "Pink", "white", "lightpink", "pink", "coral"];
 
