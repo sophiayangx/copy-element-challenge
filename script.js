@@ -17,7 +17,9 @@ $(elementsList).append(element.clone())
 
 var color = ["red", "green", "yellow", "cornsilk", "Pink", "white", "lightpink", "pink", "coral"];
 
-color.forEach()
+color.forEach(function (c) {
+
+})
 
 
 //color[0];
