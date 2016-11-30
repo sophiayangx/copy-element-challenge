@@ -8,5 +8,5 @@
 var elementsList = $("#elements-list")
 
 $("button").click(function(){
-  $("p").clone().appendTo("body");
+  $(".element").clone().appendTo("#elementslist");
 });
