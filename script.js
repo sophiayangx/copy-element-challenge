@@ -11,3 +11,6 @@ $("#element").click(function(){
   $("#element").clone().appendTo(elementsList);
 });
 
+var person = ["John", "Doe", 46];
+
+console.log(person[0])
