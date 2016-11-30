@@ -10,3 +10,4 @@ var elementsList = $("#elements-list")
 $(".element").click(function(){
   $(".element").clone().appendTo(elementsList);
 });
+
