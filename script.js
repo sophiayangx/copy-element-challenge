@@ -11,6 +11,6 @@ $("#element").click(function(){
   $("#element").clone().appendTo(elementsList);
 });
 
-var person = ["John", "Doe", 46];
+var color = ["red", "green", "yellow", "cornsilk"];
 
-console.log(person[0])
+console.log(color[0])
