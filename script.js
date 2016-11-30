@@ -7,6 +7,6 @@
 
 var elementsList = $("#elements-list")
 
-$("button").click(function(){
-  $(".element").clone().appendTo("#elementslist");
+$(".element").click(function(){
+  $(".element").clone().appendTo(elementsList);
 });
