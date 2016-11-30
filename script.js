@@ -8,9 +8,9 @@
 var elementsList = $("#elements-list")
 var element = $(".element")
 
-var colors = ["red", "green", "yellow", "cornsilk", "Pink", "white", "lightpink", "pink", "coral"];
+var colors = ["red", "green", "yellow", "cornsilk", "pink", "white", "lightpink", "darkpink", "coral"];
 
 colors.forEach(function (color) {
-  $(elementsList).append(element.clone())
+  $(elementsList).append(element.clone().css("background-color", color))
   
 })
