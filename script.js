@@ -12,11 +12,5 @@ var colors = ["red", "green", "yellow", "cornsilk", "Pink", "white", "lightpink"
 
 colors.forEach(function (color) {
   $(elementsList).append(element.clone())
+  
 })
-
-
-//color[0];
-
-//("element").style.color = color[0]; 
-
-document.getElementById("element").style.color = "blue";
