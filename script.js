@@ -15,12 +15,6 @@ $(elementsList).append(element.clone())
 $(elementsList).append(element.clone())
 $(elementsList).append(element.clone())
 
-copy
-copy
-copy
-
-
-
 var color = ["red", "green", "yellow", "cornsilk", "Pink", "white", "lightpink", "pink", "coral"];
 
 
@@ -28,4 +22,7 @@ var color = ["red", "green", "yellow", "cornsilk", "Pink", "white", "lightpink",
 
 //("element").style.color = color[0]; 
 
-document.getElementById(".element").style.color = "blue";
+document.getElementById("element").style.color = "blue";
+
+var str = "Hello World!";
+var result = Element.fontcolor("green");
